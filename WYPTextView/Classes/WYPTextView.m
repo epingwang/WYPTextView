@@ -44,6 +44,7 @@
 
 - (void)addTextChangeObserver
 {
+    self.editable = YES;
     self.placeholderColor = [UIColor grayColor];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textChanged:) name:UITextViewTextDidChangeNotification object:self];
 }
@@ -67,7 +68,6 @@
         CGRect rect = CGRectInset(self.bounds, self.textContainerInset.left+5, self.textContainerInset.top);
         // iOS7 Version
         if ([self.placeholder respondsToSelector:@selector(drawInRect:withAttributes:)]) {
-            NSLog(@"%@", self.font);
             UIFont *font = self.font;
             if (font == NULL) {
                 font = [UIFont systemFontOfSize:[UIFont systemFontSize]];
