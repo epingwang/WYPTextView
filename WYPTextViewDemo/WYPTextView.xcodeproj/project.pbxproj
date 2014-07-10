@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02B5CBB2196E3DF5008518CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B5CBB1196E3DF5008518CB /* Foundation.framework */; };
+		02B5CBB4196E3DF5008518CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B5CBB3196E3DF5008518CB /* CoreGraphics.framework */; };
+		02B5CBB6196E3DF5008518CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B5CBB5196E3DF5008518CB /* UIKit.framework */; };
+		02B5CBBC196E3DF5008518CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02B5CBBA196E3DF5008518CB /* InfoPlist.strings */; };
+		02B5CBBE196E3DF5008518CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B5CBBD196E3DF5008518CB /* main.m */; };
+		02B5CBC2196E3DF5008518CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B5CBC1196E3DF5008518CB /* AppDelegate.m */; };
+		02B5CBC4196E3DF5008518CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B5CBC3196E3DF5008518CB /* Images.xcassets */; };
+		02B5CBCB196E3DF5008518CB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B5CBCA196E3DF5008518CB /* XCTest.framework */; };
+		02B5CBCC196E3DF5008518CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B5CBB1196E3DF5008518CB /* Foundation.framework */; };
+		02B5CBCD196E3DF5008518CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B5CBB5196E3DF5008518CB /* UIKit.framework */; };
+		02B5CBD5196E3DF5008518CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02B5CBD3196E3DF5008518CB /* InfoPlist.strings */; };
+		02B5CBD7196E3DF5008518CB /* WYPTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B5CBD6196E3DF5008518CB /* WYPTextViewTests.m */; };
+		02B5CBE2196E3E36008518CB /* WYPTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B5CBE1196E3E36008518CB /* WYPTextView.m */; };
+		02B5CBE6196E4133008518CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B5CBE5196E4133008518CB /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02B5CBCE196E3DF5008518CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02B5CBA6196E3DF5008518CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02B5CBAD196E3DF5008518CB;
+			remoteInfo = WYPTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B5CBAE196E3DF5008518CB /* WYPTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYPTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B5CBB1196E3DF5008518CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		02B5CBB3196E3DF5008518CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		02B5CBB5196E3DF5008518CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		02B5CBB9196E3DF5008518CB /* WYPTextView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WYPTextView-Info.plist"; sourceTree = "<group>"; };
+		02B5CBBB196E3DF5008518CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		02B5CBBD196E3DF5008518CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02B5CBBF196E3DF5008518CB /* WYPTextView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WYPTextView-Prefix.pch"; sourceTree = "<group>"; };
+		02B5CBC0196E3DF5008518CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		02B5CBC1196E3DF5008518CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		02B5CBC3196E3DF5008518CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		02B5CBC9196E3DF5008518CB /* WYPTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYPTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B5CBCA196E3DF5008518CB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		02B5CBD2196E3DF5008518CB /* WYPTextViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WYPTextViewTests-Info.plist"; sourceTree = "<group>"; };
+		02B5CBD4196E3DF5008518CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		02B5CBD6196E3DF5008518CB /* WYPTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYPTextViewTests.m; sourceTree = "<group>"; };
+		02B5CBE0196E3E36008518CB /* WYPTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYPTextView.h; sourceTree = "<group>"; };
+		02B5CBE1196E3E36008518CB /* WYPTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYPTextView.m; sourceTree = "<group>"; };
+		02B5CBE4196E4133008518CB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		02B5CBE5196E4133008518CB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02B5CBAB196E3DF5008518CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B5CBB4196E3DF5008518CB /* CoreGraphics.framework in Frameworks */,
+				02B5CBB6196E3DF5008518CB /* UIKit.framework in Frameworks */,
+				02B5CBB2196E3DF5008518CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B5CBC6196E3DF5008518CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B5CBCB196E3DF5008518CB /* XCTest.framework in Frameworks */,
+				02B5CBCD196E3DF5008518CB /* UIKit.framework in Frameworks */,
+				02B5CBCC196E3DF5008518CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02B5CBA5196E3DF5008518CB = {
+			isa = PBXGroup;
+			children = (
+				02B5CBB7196E3DF5008518CB /* WYPTextView */,
+				02B5CBD0196E3DF5008518CB /* WYPTextViewTests */,
+				02B5CBB0196E3DF5008518CB /* Frameworks */,
+				02B5CBAF196E3DF5008518CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02B5CBAF196E3DF5008518CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02B5CBAE196E3DF5008518CB /* WYPTextView.app */,
+				02B5CBC9196E3DF5008518CB /* WYPTextViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02B5CBB0196E3DF5008518CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02B5CBB1196E3DF5008518CB /* Foundation.framework */,
+				02B5CBB3196E3DF5008518CB /* CoreGraphics.framework */,
+				02B5CBB5196E3DF5008518CB /* UIKit.framework */,
+				02B5CBCA196E3DF5008518CB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02B5CBB7196E3DF5008518CB /* WYPTextView */ = {
+			isa = PBXGroup;
+			children = (
+				02B5CBC0196E3DF5008518CB /* AppDelegate.h */,
+				02B5CBC1196E3DF5008518CB /* AppDelegate.m */,
+				02B5CBC3196E3DF5008518CB /* Images.xcassets */,
+				02B5CBB8196E3DF5008518CB /* Supporting Files */,
+				02B5CBE3196E411C008518CB /* Classes */,
+				02B5CBE4196E4133008518CB /* ViewController.h */,
+				02B5CBE5196E4133008518CB /* ViewController.m */,
+			);
+			path = WYPTextView;
+			sourceTree = "<group>";
+		};
+		02B5CBB8196E3DF5008518CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02B5CBB9196E3DF5008518CB /* WYPTextView-Info.plist */,
+				02B5CBBA196E3DF5008518CB /* InfoPlist.strings */,
+				02B5CBBD196E3DF5008518CB /* main.m */,
+				02B5CBBF196E3DF5008518CB /* WYPTextView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02B5CBD0196E3DF5008518CB /* WYPTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				02B5CBD6196E3DF5008518CB /* WYPTextViewTests.m */,
+				02B5CBD1196E3DF5008518CB /* Supporting Files */,
+			);
+			path = WYPTextViewTests;
+			sourceTree = "<group>";
+		};
+		02B5CBD1196E3DF5008518CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02B5CBD2196E3DF5008518CB /* WYPTextViewTests-Info.plist */,
+				02B5CBD3196E3DF5008518CB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02B5CBE3196E411C008518CB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				02B5CBE0196E3E36008518CB /* WYPTextView.h */,
+				02B5CBE1196E3E36008518CB /* WYPTextView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02B5CBAD196E3DF5008518CB /* WYPTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B5CBDA196E3DF5008518CB /* Build configuration list for PBXNativeTarget "WYPTextView" */;
+			buildPhases = (
+				02B5CBAA196E3DF5008518CB /* Sources */,
+				02B5CBAB196E3DF5008518CB /* Frameworks */,
+				02B5CBAC196E3DF5008518CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYPTextView;
+			productName = WYPTextView;
+			productReference = 02B5CBAE196E3DF5008518CB /* WYPTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02B5CBC8196E3DF5008518CB /* WYPTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B5CBDD196E3DF5008518CB /* Build configuration list for PBXNativeTarget "WYPTextViewTests" */;
+			buildPhases = (
+				02B5CBC5196E3DF5008518CB /* Sources */,
+				02B5CBC6196E3DF5008518CB /* Frameworks */,
+				02B5CBC7196E3DF5008518CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02B5CBCF196E3DF5008518CB /* PBXTargetDependency */,
+			);
+			name = WYPTextViewTests;
+			productName = WYPTextViewTests;
+			productReference = 02B5CBC9196E3DF5008518CB /* WYPTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02B5CBA6196E3DF5008518CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = WYP;
+				TargetAttributes = {
+					02B5CBC8196E3DF5008518CB = {
+						TestTargetID = 02B5CBAD196E3DF5008518CB;
+					};
+				};
+			};
+			buildConfigurationList = 02B5CBA9196E3DF5008518CB /* Build configuration list for PBXProject "WYPTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02B5CBA5196E3DF5008518CB;
+			productRefGroup = 02B5CBAF196E3DF5008518CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02B5CBAD196E3DF5008518CB /* WYPTextView */,
+				02B5CBC8196E3DF5008518CB /* WYPTextViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02B5CBAC196E3DF5008518CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B5CBBC196E3DF5008518CB /* InfoPlist.strings in Resources */,
+				02B5CBC4196E3DF5008518CB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B5CBC7196E3DF5008518CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B5CBD5196E3DF5008518CB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02B5CBAA196E3DF5008518CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B5CBC2196E3DF5008518CB /* AppDelegate.m in Sources */,
+				02B5CBE2196E3E36008518CB /* WYPTextView.m in Sources */,
+				02B5CBE6196E4133008518CB /* ViewController.m in Sources */,
+				02B5CBBE196E3DF5008518CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B5CBC5196E3DF5008518CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B5CBD7196E3DF5008518CB /* WYPTextViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02B5CBCF196E3DF5008518CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02B5CBAD196E3DF5008518CB /* WYPTextView */;
+			targetProxy = 02B5CBCE196E3DF5008518CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02B5CBBA196E3DF5008518CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02B5CBBB196E3DF5008518CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		02B5CBD3196E3DF5008518CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02B5CBD4196E3DF5008518CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02B5CBD8196E3DF5008518CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		02B5CBD9196E3DF5008518CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02B5CBDB196E3DF5008518CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WYPTextView/WYPTextView-Prefix.pch";
+				INFOPLIST_FILE = "WYPTextView/WYPTextView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		02B5CBDC196E3DF5008518CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WYPTextView/WYPTextView-Prefix.pch";
+				INFOPLIST_FILE = "WYPTextView/WYPTextView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		02B5CBDE196E3DF5008518CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WYPTextView.app/WYPTextView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WYPTextView/WYPTextView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WYPTextViewTests/WYPTextViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		02B5CBDF196E3DF5008518CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WYPTextView.app/WYPTextView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WYPTextView/WYPTextView-Prefix.pch";
+				INFOPLIST_FILE = "WYPTextViewTests/WYPTextViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02B5CBA9196E3DF5008518CB /* Build configuration list for PBXProject "WYPTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B5CBD8196E3DF5008518CB /* Debug */,
+				02B5CBD9196E3DF5008518CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02B5CBDA196E3DF5008518CB /* Build configuration list for PBXNativeTarget "WYPTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B5CBDB196E3DF5008518CB /* Debug */,
+				02B5CBDC196E3DF5008518CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02B5CBDD196E3DF5008518CB /* Build configuration list for PBXNativeTarget "WYPTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B5CBDE196E3DF5008518CB /* Debug */,
+				02B5CBDF196E3DF5008518CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02B5CBA6196E3DF5008518CB /* Project object */;
+}
