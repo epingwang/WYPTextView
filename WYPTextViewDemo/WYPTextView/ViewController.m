@@ -29,7 +29,7 @@
     [super viewDidLoad];
     
     WYPTextView *textView = [[WYPTextView alloc] initWithFrame:CGRectMake(0, 20, 320, self.view.frame.size.height - 20)];
-    textView.placeholder = @"请输入";
+    textView.placeholder = @"这是一个Placeholder";
     [self.view addSubview:textView];
 }
 
