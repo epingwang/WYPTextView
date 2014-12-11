@@ -20,8 +20,6 @@
         [textStorage addLayoutManager:layoutManager];
         NSTextContainer *textContainer = [[NSTextContainer alloc] initWithSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
         [layoutManager addTextContainer:textContainer];
-        textContainer.widthTracksTextView = YES;
-        textContainer.heightTracksTextView = YES;
         if (self = [super initWithFrame:CGRectZero textContainer:textContainer]) {
             [self addTextChangeObserver];
         }
